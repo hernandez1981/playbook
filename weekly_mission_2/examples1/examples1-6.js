@@ -1,0 +1,8 @@
+// Ejemplo 6: Uso de map para convertir todos los nombres de una lista a mayúsculas
+console.log("Convirtiendo las primeras 3 letras de la lista a mayúsculas con toUpperCase")
+const countries6 = ['México', 'Guatemala', 'Francia', 'Suecia', 'Brasil']
+const countriesFirstThreeLetters = countries6.map((country) =>
+  country.toUpperCase().slice(0, 3) // el método slice obtiene solo la longitud marcada del string
+)
+console.log("Ejemplo 6: Uso de map para convertir todos los nombres de una lista a mayúsculas")
+console.log(countriesFirstThreeLetters)
