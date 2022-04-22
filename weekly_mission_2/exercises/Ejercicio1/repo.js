@@ -1,3 +1,18 @@
+```mermaid
+ classDiagram
+ class Repo
+ Repo : +name
+ Repo : +author
+ Repo : +language
+ Repo : +numberOfCommits
+ Repo : +stars
+ Repo : +forks
+ Repo : +issues_open
+ Repo : +issues_close
+ Repo : +getTotalIssues()
+ Repo : +getGeneralInfo()
+ ```
+
 //Modelando información con objetos simples de JS: ejemplo objeto repo.
 console.log("Probando si funciona")
 
