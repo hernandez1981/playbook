@@ -3,6 +3,7 @@ console.log("Modelando información de facebook: objeto Post.")
    const post = {
         user: "Katy Hernández",    
         publication: "Curso Node JS",
+        image: "imagen del curso",
         dateCreated: new Date(),                        
         like:100,       
         comment:50,
