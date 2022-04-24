@@ -7,7 +7,7 @@ const biography = {
     about: "Acerca de mi",
     live: "Sinaloa",  
     updateInfo: new Date(), 
-    ActivityLog: 5,
+    activityLog: 5,
     friends: 100, 
     status: 1,
     getGeneralInfo: function(){
