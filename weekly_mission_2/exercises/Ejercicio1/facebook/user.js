@@ -6,7 +6,7 @@ const user = {
   username: "katyhernandez",
   photo: "imagen perfil",
   timeline: "Estudiante de LaunchX",
-  Live:" Sinaloa",
+  live:" Sinaloa",
   birthday:new Date(),
   status:1,  
   gender: "genero",   
