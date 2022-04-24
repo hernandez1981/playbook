@@ -12,7 +12,7 @@ console.log("Modelando información de uber: objeto profile.")
        rating: 4.9, 
        companyYear: 3,        
        demand:"Alta",       
-       typeuser:"uber",
+       typeUser:"uber",
        call: 6688888888,
        email:"katy@hotmail.com",
        getGeneralInfo: function(){
